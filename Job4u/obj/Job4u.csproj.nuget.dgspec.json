@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rishabh Mittal\\source\\repos\\Job4u\\Job4u\\Job4u.csproj": {}
+    "C:\\Users\\Rishabh Mittal\\source\\repos\\Job4U\\Job4u\\Job4u.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rishabh Mittal\\source\\repos\\Job4u\\Job4u\\Job4u.csproj": {
+    "C:\\Users\\Rishabh Mittal\\source\\repos\\Job4U\\Job4u\\Job4u.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rishabh Mittal\\source\\repos\\Job4u\\Job4u\\Job4u.csproj",
+        "projectUniqueName": "C:\\Users\\Rishabh Mittal\\source\\repos\\Job4U\\Job4u\\Job4u.csproj",
         "projectName": "Job4u",
-        "projectPath": "C:\\Users\\Rishabh Mittal\\source\\repos\\Job4u\\Job4u\\Job4u.csproj",
+        "projectPath": "C:\\Users\\Rishabh Mittal\\source\\repos\\Job4U\\Job4u\\Job4u.csproj",
         "packagesPath": "C:\\Users\\Rishabh Mittal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rishabh Mittal\\source\\repos\\Job4u\\Job4u\\obj\\",
+        "outputPath": "C:\\Users\\Rishabh Mittal\\source\\repos\\Job4U\\Job4u\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rishabh Mittal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

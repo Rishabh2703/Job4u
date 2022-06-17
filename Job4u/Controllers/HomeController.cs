@@ -23,7 +23,22 @@ namespace Job4u.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Jobs()
+        {
+            return View();
+        }
+
+        public IActionResult Discover()
+        {
+            return View();
+        }
+
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
+        public IActionResult Log_In()
         {
             return View();
         }
